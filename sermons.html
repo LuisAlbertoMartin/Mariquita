@@ -77,8 +77,7 @@
 												</a>
 											</h4>
 										</div>
-																	
-								    	<div id="sermonOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+										<div id="sermonOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 								      		<div class="panel-body">
 												<!-- Original Source: http://overcomerministry.org/august-21-the-sun-darken/ -->
 
@@ -437,8 +436,6 @@
 								        		<p>Do read carefully… Directed by the Lord through his servant, the Passover Angel, I have seen the signs. I am very urgently calling a solemn assembly for God's chosen gather in our Chapel to witness the coming of the Lord's Wrath, the beginning of the Rapture, and the erasure of Sin from the Earth.  A gathering in Spirit and Power. Asking all that read these words will pray as to the Father’s will for your salvation.  The time is coming soon, so prepare yourselves, mark your doorposts, save your firstborn from God's Holy Wrath as visited upon as as the God's Angel descends upon the Black Wind to slay all sinners.</p>
 								        		<p>
 								        			<img src="images/Mark_Doorposts.png">
-													
-													
 								        		</p>
 								      		</div>
 								    	</div>
@@ -450,13 +447,13 @@
                 </div> <!-- section -->
             </main> <!-- .main-content -->
 
-             <footer class="site-footer">
+            <footer class="site-footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
                             <div class="widget">
-                                <h3 class="widget-title">Nuestra dirección</h3>
-                                <p>No hay más que una Iglesia en la que los hombres encuentran la salvación, así como fuera del arca de Noé no era posible que nadie se salvara. (Tomás de Aquino)</p>
+                                <h3 class="widget-title">Our address</h3>
+                                <p>There is but one Church in which men find salvation, just as outside the ark of Noah it was not possible for anyone to be saved. (Thomas Aquinas)</p>
                                 <ul class="address">
                                     <li><i class="fa fa-map-marker"></i> 1313 Mockingbird Ln, Cleveland, OH 44106</li>
                                     <li><i class="fa fa-phone"></i> (216) 555 0180</li>
@@ -466,33 +463,48 @@
                         </div>
                         <div class="col-md-4">
                             <div class="widget text-center">
-                                <h2 class="widget-title">¡Regalo gratis con tu donación!</h2>
-                                <a href="book.html"><img src="images/book_thumb.png" alt=""></a>
+                                <h2 class="widget-title">Free Gift With Donation!</h2>
+                                <a href="book.html"><img src="images/book_thumb.png"></a>
                                 <p><strong>$29.95</strong></p>
-                                <img src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_cc_147x47.png" alt="Donar">
+                                <img src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_cc_147x47.png" alt="Donate">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="widget">
-                                <h3 class="widget-title"><a name="contact">Formulario de contacto</a></h3>
+                                <h3 class="widget-title"><a name="contact">Contact form</a></h3>
                                 <form action="#" class="contact-form">
                                     <div class="row">
-                                        <div class="col-md-6"><input type="text" placeholder="Tu nombre..."></div>
-                                        <div class="col-md-6"><input type="text" placeholder="Correo electrónico..."></div>
+                                        <div class="col-md-6"><input type="text" placeholder="Your name..."></div>
+                                        <div class="col-md-6"><input type="text" placeholder="Email..."></div>
                                     </div>
-                                    <textarea name="" placeholder="Tu mensaje..."></textarea>
-                                    <div class="text-right"><input type="submit" value="Enviar mensaje"></div>
+                                    <textarea name="" placeholder="Your message..."></textarea>
+                                    <div class="text-right"><input type="submit" value="Send message"></div>
                                 </form>
                             </div>
                         </div>
                     </div> <!-- .row -->
 
-                    <p class="colophon">Copyright <span class="year-0"></span> Iglesia del Ángel de la Pascua. Todos los derechos reservados</p>
+                    <p class="colophon">Copyright <span class="year-0"></span> Church of the Passover Angel. All right reserved</p>
                 </div><!-- .container -->
             </footer> <!-- .site-footer -->
         </div>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
         <script src="js/app.js"></script>
+        <script type="text/javascript">
+	        $(document).ready(function() {
+			  var anchor = window.location.hash;
+
+			  if ($(anchor).length) {
+			  	if (anchor != "#sermonOne") {
+			  		$('#sermonOne').collapse('toggle');
+			  		$(anchor).collapse('toggle');
+			  	}
+			  }
+			});
+        </script>
     </body>
 </html>
+																	
+
